@@ -50,6 +50,9 @@ font-family: san serif, arial;
 	div.title1, div.title2, div.title3{
 	width: auto;
   }
+   div.footer{
+	width: 80%;
+  }		
 }
 
 	@media(min-width:768px) and (max-width:991px){
@@ -68,6 +71,9 @@ font-family: san serif, arial;
 	width: auto;
 	
   }
+ div.footer{
+	width: 80%;
+  }			
 }
 	
 	@media(max-width: 767px){
@@ -80,4 +86,7 @@ font-family: san serif, arial;
 	div.title1, div.title2, div.title3{
 	width: auto;
    }
+   div.footer{
+	width: 80%;
+  }		
 }
