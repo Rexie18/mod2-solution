@@ -1,1 +1,163 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+<title>Yakoov Cousera course</title>
+<style>
+body{
+margin: 25px;
+//background-color: yellow;
+//opacity: 0.4;
+font-family: san serif, arial;
+}
 
+
+.content1{
+	background-color: magenta;
+	opacity: 0.8;
+	}
+	
+.content2{
+	background-color: gray;
+	opacity: 0.8;
+	}
+
+.content3{
+	background-color: orange;
+	opacity: 0.8;
+	}
+	
+.content1, .content2, .content3{
+	float: left;
+   margin: 10px;
+   padding: 10px;
+   width: 800px;
+   height: 300px;
+   border: 1px solid black;
+	}
+	
+	div.title1, div.title2, div.title3{
+	border-radius: 5px;
+	float: right;
+	margin: 2px;
+	padding: 4px;
+	width: auto;
+	height: 20px;
+	border: 1px solid black;
+	background-color: Cyan;
+	}
+	
+	@media(min-width: 992px){
+	.content1, .content2, .content3{
+	width: 29%;
+	height: auto;
+	margin: 8px ;
+   }
+	div.title1, div.title2, div.title3{
+	width: auto;
+  }
+}
+
+	@media(min-width:768px) and (max-width:991px){
+	.content1, .content2{
+	    width: 40%;
+		height: auto;
+		
+	}
+	
+	.content3{
+	    width: 80%;
+		height: auto;
+		margin: 20px;
+	}
+	div.title1, div.title2, div.title3{
+	width: auto;
+	
+  }
+}
+	
+	@media(max-width: 767px){
+	.content1, .content2, .content3{
+	width: 80%;
+	height: auto;
+	margin: 10px ;
+	
+	}
+	div.title1, div.title2, div.title3{
+	width: auto;
+   }
+}
+</style>
+</head>
+<body>
+
+<h1 align="center">Our Menu</h1>
+
+<div id="container">
+  <div class="content1" align="justify">
+  <div class="title1" align="center">
+  PepperSoup
+  </div>
+  <br>
+  <p>"Sed ut perspiciatis unde omnis iste natus error sit 
+  voluptatem accusantium doloremque laudantium, totam rem 
+  aperiam, eaque ipsa quae ab illo inventore veritatis et 
+  quasi architecto beatae vitae dicta sunt explicabo. Nemo 
+  enim ipsam voluptatem quia voluptas sit aspernatur aut odit 
+  aut fugit, sed quia consequuntur magni dolores eos qui 
+  ratione voluptatem sequi nesciunt. Neque porro quisquam est, 
+  qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, 
+  sed quia non numquam eius modi tempora incidunt ut labore et dolore 
+  magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis 
+  nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut 
+  aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit 
+  qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum 
+  qui dolorem eum fugiat quo voluptas nulla pariatur?"
+  </p>
+  </div>
+  <div class="content2" align="justify">
+  <div class="title2" align="center">
+  FriedRice
+  </div>
+  <br>
+  <p>"Sed ut perspiciatis unde omnis iste natus error sit 
+  voluptatem accusantium doloremque laudantium, totam rem 
+  aperiam, eaque ipsa quae ab illo inventore veritatis et 
+  quasi architecto beatae vitae dicta sunt explicabo. Nemo 
+  enim ipsam voluptatem quia voluptas sit aspernatur aut odit 
+  aut fugit, sed quia consequuntur magni dolores eos qui 
+  ratione voluptatem sequi nesciunt. Neque porro quisquam est, 
+  qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, 
+  sed quia non numquam eius modi tempora incidunt ut labore et dolore 
+  magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis 
+  nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut 
+  aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit 
+  qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum 
+  qui dolorem eum fugiat quo voluptas nulla pariatur?"
+  </p>
+  </div>
+  <div class="content3" align="justify">
+  <div class="title3" align="center">
+  VegDishes
+  </div>
+  <br>
+  <p>"Sed ut perspiciatis unde omnis iste natus error sit 
+  voluptatem accusantium doloremque laudantium, totam rem 
+  aperiam, eaque ipsa quae ab illo inventore veritatis et 
+  quasi architecto beatae vitae dicta sunt explicabo. Nemo 
+  enim ipsam voluptatem quia voluptas sit aspernatur aut odit 
+  aut fugit, sed quia consequuntur magni dolores eos qui 
+  ratione voluptatem sequi nesciunt. Neque porro quisquam est, 
+  qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, 
+  sed quia non numquam eius modi tempora incidunt ut labore et dolore 
+  magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis 
+  nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut 
+  aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit 
+  qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum 
+  qui dolorem eum fugiat quo voluptas nulla pariatur?"
+  </p>
+  </div>
+</div>
+
+
+</body>
+</html>
